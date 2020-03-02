@@ -1,3 +1,13 @@
+#输入生成字符，即加入生成密码的字符（示例如输入：		0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz）
+#min值，即存入字典中密码的最小位数（可为0）
+#max值，即存入字典中的密码的最多位数
+#允许输出的密码个数，即可以存入字典中的密码数目（0代表无限制，字典中密码个数无		要求，全部存入字典）
+#输出密码位数，即存入字典中的密码的位数（0代表无限制，即从一位密码开始全部存入）
+#停止字符，即用户输入字符串，字典生成器根据规则产生后，当检测到产生字符串与用户		输入相同时，停止生成
+#从指定位置输出，即用户输入字符串后，从字典文件中找到对应位置，并将这个密码与其		后密码全部输出打印
+
+
+
 import itertools as its
 #words="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 words = input("输入生成字符：")
